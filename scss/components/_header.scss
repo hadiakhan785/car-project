@@ -2,6 +2,18 @@
 	// -Header start
 //===========================================
 
+@import '../helpers/_variables';
+
+header {
+	canvas {
+		height: 80vh;
+		width: 100%;
+		background-image: url('../images/header-pic.jpeg');
+		background-position: center;
+		background-size: cover;
+	}
+}
+
 //===========================================
 	// -Header end
 //===========================================

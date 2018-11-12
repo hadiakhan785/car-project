@@ -2,6 +2,32 @@
 	// -Footer start
 //===========================================
 
+footer{
+	background-color: $black;
+	padding: rem(100);
+	.link-div{
+		display: inline-block;
+		max-width: rem(325);
+		min-width: rem(325);
+		h3{
+			color: $white;
+		}
+	
+		.hr-div{
+			height: rem(6);
+			width: rem(100);
+			background-color: $red;
+			
+		}
+	
+		p{
+			a{
+				color: $red;
+				text-decoration: none;
+			}
+		}
+	}
+}
 //===========================================
 	// -Footer end
 //===========================================
